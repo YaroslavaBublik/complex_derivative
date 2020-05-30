@@ -28,5 +28,5 @@ def buildParseTree(fpexp):
     return eTree
 
 pt = buildParseTree("( ( ( 10 + 5 ) * 3 ) + 1 )")
-pt.postorder()  #определено и объясняется в следующем разделе
+pt.postorder()
 
