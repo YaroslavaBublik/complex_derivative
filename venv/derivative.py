@@ -18,7 +18,7 @@ class expr:
                 left = self.left.toString()
                 right = self.right.toString()
                 opr = self.data
-                # remove unnecessary 0.0 in sum and 1.0 in multiply
+                
                 if (opr == '*' and (left == "0.0" or right == "0.0")):
                     return ""
                 if (opr == '*' and (left == "1.0")):
